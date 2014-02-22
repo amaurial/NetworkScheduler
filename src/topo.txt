@@ -1,0 +1,52 @@
+s0 lo:  s0-eth1:sa100-eth1 s0-eth2:sa101-eth2 s0-eth3:h0-eth0 s0-eth4:h1-eth0 s0-eth5:h2-eth0 s0-eth6:h3-eth0
+s1 lo:  s1-eth1:sa101-eth1 s1-eth2:sa100-eth2 s1-eth3:h4-eth0 s1-eth4:h5-eth0 s1-eth5:h6-eth0 s1-eth6:h7-eth0
+s2 lo:  s2-eth1:sa102-eth1 s2-eth2:sa103-eth2 s2-eth3:h8-eth0 s2-eth4:h9-eth0 s2-eth5:h10-eth0 s2-eth6:h11-eth0
+s3 lo:  s3-eth1:sa103-eth1 s3-eth2:sa102-eth2 s3-eth3:h12-eth0 s3-eth4:h13-eth0 s3-eth5:h14-eth0 s3-eth6:h15-eth0
+s4 lo:  s4-eth1:sa104-eth1 s4-eth2:sa105-eth2 s4-eth3:h16-eth0 s4-eth4:h17-eth0 s4-eth5:h18-eth0 s4-eth6:h19-eth0
+s5 lo:  s5-eth1:sa105-eth1 s5-eth2:sa104-eth2 s5-eth3:h20-eth0 s5-eth4:h21-eth0 s5-eth5:h22-eth0 s5-eth6:h23-eth0
+s6 lo:  s6-eth1:sa106-eth1 s6-eth2:sa107-eth2 s6-eth3:h24-eth0 s6-eth4:h25-eth0 s6-eth5:h26-eth0 s6-eth6:h27-eth0
+s7 lo:  s7-eth1:sa107-eth1 s7-eth2:sa106-eth2 s7-eth3:h28-eth0 s7-eth4:h29-eth0 s7-eth5:h30-eth0 s7-eth6:h31-eth0
+sa100 lo:  sa100-eth1:s0-eth1 sa100-eth2:s1-eth2 sa100-eth3:sc0-eth1 sa100-eth4:sc1-eth1
+sa101 lo:  sa101-eth1:s1-eth1 sa101-eth2:s0-eth2 sa101-eth3:sc2-eth1 sa101-eth4:sc3-eth1
+sa102 lo:  sa102-eth1:s2-eth1 sa102-eth2:s3-eth2 sa102-eth3:sc0-eth2 sa102-eth4:sc1-eth2
+sa103 lo:  sa103-eth1:s3-eth1 sa103-eth2:s2-eth2 sa103-eth3:sc2-eth2 sa103-eth4:sc3-eth2
+sa104 lo:  sa104-eth1:s4-eth1 sa104-eth2:s5-eth2 sa104-eth3:sc0-eth3 sa104-eth4:sc1-eth3
+sa105 lo:  sa105-eth1:s5-eth1 sa105-eth2:s4-eth2 sa105-eth3:sc2-eth3 sa105-eth4:sc3-eth3
+sa106 lo:  sa106-eth1:s6-eth1 sa106-eth2:s7-eth2 sa106-eth3:sc0-eth4 sa106-eth4:sc1-eth4
+sa107 lo:  sa107-eth1:s7-eth1 sa107-eth2:s6-eth2 sa107-eth3:sc2-eth4 sa107-eth4:sc3-eth4
+sc0 lo:  sc0-eth1:sa100-eth3 sc0-eth2:sa102-eth3 sc0-eth3:sa104-eth3 sc0-eth4:sa106-eth3
+sc1 lo:  sc1-eth1:sa100-eth4 sc1-eth2:sa102-eth4 sc1-eth3:sa104-eth4 sc1-eth4:sa106-eth4
+sc2 lo:  sc2-eth1:sa101-eth3 sc2-eth2:sa103-eth3 sc2-eth3:sa105-eth3 sc2-eth4:sa107-eth3
+sc3 lo:  sc3-eth1:sa101-eth4 sc3-eth2:sa103-eth4 sc3-eth3:sa105-eth4 sc3-eth4:sa107-eth4
+h0 h0-eth0:s0-eth3
+h1 h1-eth0:s0-eth4
+h2 h2-eth0:s0-eth5
+h3 h3-eth0:s0-eth6
+h4 h4-eth0:s1-eth3
+h5 h5-eth0:s1-eth4
+h6 h6-eth0:s1-eth5
+h7 h7-eth0:s1-eth6
+h8 h8-eth0:s2-eth3
+h9 h9-eth0:s2-eth4
+h10 h10-eth0:s2-eth5
+h11 h11-eth0:s2-eth6
+h12 h12-eth0:s3-eth3
+h13 h13-eth0:s3-eth4
+h14 h14-eth0:s3-eth5
+h15 h15-eth0:s3-eth6
+h16 h16-eth0:s4-eth3
+h17 h17-eth0:s4-eth4
+h18 h18-eth0:s4-eth5
+h19 h19-eth0:s4-eth6
+h20 h20-eth0:s5-eth3
+h21 h21-eth0:s5-eth4
+h22 h22-eth0:s5-eth5
+h23 h23-eth0:s5-eth6
+h24 h24-eth0:s6-eth3
+h25 h25-eth0:s6-eth4
+h26 h26-eth0:s6-eth5
+h27 h27-eth0:s6-eth6
+h28 h28-eth0:s7-eth3
+h29 h29-eth0:s7-eth4
+h30 h30-eth0:s7-eth5
+h31 h31-eth0:s7-eth6

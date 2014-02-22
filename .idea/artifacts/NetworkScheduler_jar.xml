@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="NetworkScheduler:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/NetworkScheduler_jar</output-path>
+    <root id="archive" name="NetworkScheduler.jar">
+      <element id="module-output" name="NetworkScheduler" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jgrapht-0.8.3/lib/jgraph.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jgrapht-0.8.3/jgrapht-jdk1.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
